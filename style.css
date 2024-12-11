@@ -1,0 +1,49 @@
+:root {
+  --blue: #37517e;
+}
+.front {
+  background-color: var(--blue);
+}
+.front a {
+  color: white !important;
+}
+.dropdown-menu {
+  color: black !important;
+}
+.asad-image {
+  animation: asad 2s linear infinite alternate;
+}
+.text-blue {
+  color: var(--blue);
+}
+.gary {
+  width: 100%;
+  height: 2px;
+  background-color: lightslategray;
+  margin: auto;
+  position: relative;
+}
+.blue {
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 3px;
+  background-color: var(--bs-info);
+  margin: auto;
+  text-align: center;
+}
+.m-content {
+  width: max-content;
+  margin: auto;
+}
+
+@keyframes asad {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-20px);
+  }
+}

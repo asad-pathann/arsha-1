@@ -1,0 +1,49 @@
+:root {
+  --blue: #36517c;
+}
+.front {
+  background-color: var(--blue);
+  color: white;
+}
+.front a {
+  color: white !important;
+}
+.back {
+  animation: asad 2s alternate infinite;
+}
+.text-blue {
+  color: var(--blue);
+}
+.gr {
+  width: 100%;
+  height: 2px;
+  background-color: lightslategray;
+  margin: auto;
+  position: relative;
+}
+
+.blue {
+  width: 20%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 3px;
+  background-color: var(--bs-info);
+  margin: auto;
+}
+.bg-blue {
+  background-color: var(--blue);
+}
+.max-content {
+  width: max-content;
+  margin: auto;
+}
+@keyframes asad {
+  from {
+    transform: translate(0);
+  }
+  to {
+    transform: translateY(-15px);
+  }
+}
